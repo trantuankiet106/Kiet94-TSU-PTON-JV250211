@@ -1,0 +1,31 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+    size: 5px;
+    font-weight: 100;
+    text-align: left;
+}
+
+h2 {
+    color: rgb(255, 153, 0);
+}
+
+.p1 {
+    color: rgb(0, 123, 255);
+}
+
+.p2 {
+    color: rgb(217, 16, 16);
+}
+
+.tip {
+    background-color: #eff4a3;
+    border-left: 5px solid rgb(255, 153, 0);
+    padding: 10px;
+}
+
+span {
+    color: rgb(255, 153, 0);
+    text-decoration: none;
+    margin: auto;
+}

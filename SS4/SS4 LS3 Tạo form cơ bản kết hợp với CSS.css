@@ -1,0 +1,10 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    width: 600px;
+}
+button{
+    background-color: rgb(44, 200, 44);
+    color: aliceblue;
+    border: 0cap;
+}

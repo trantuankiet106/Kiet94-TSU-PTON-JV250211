@@ -1,0 +1,13 @@
+h3{
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-size-adjust: 40;
+}
+p{
+    text-align: center;
+}
+.center{
+    display: block;
+    margin:auto;
+}

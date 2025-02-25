@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+.WEB{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    size: 50px;
+    border: 1px solid black;
+    width: 650px;
+    padding: 10px;
+    padding-right: 20px;
+    margin: 10px;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: brown;
+}
