@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo form thông tin sở thích</title>
+</head>
+<body>
+    <h1>Sở thích của bạn</h1>
+    <form action="thamdosothich.sever.com" method="post">
+    <label for="fullname">Họ và tên</label>
+    <input type="text" name="fullname" id="fullname" value="" size="40" placeholder="Nguyễn Văn A">
+    <br/>
+    <label for="Email">Email</label>
+    <input type="email" name="Email" id="Email" value="" size="40" placeholder="exemple123@gmail.com">
+    <br/>
+    <label for="fav">Sở thích</label>
+    <br/>
+    <table>
+    <tr>
+    <td><label><input type="checkbox" name="fav" id="fav" size="40">Thẻ thao</label></td>
+    <td><label><input type="checkbox" name="fav" id="fav" size="40">Âm nhạc</label></td>
+    <td><label><input type="checkbox" name="fav" id="fav" size="40">Đọc sách</label></td>
+    </tr>
+    <br/>
+    <tr>
+    <td><label><input type="checkbox" name="fav" id="fav" size="40">Lướt web</label></td>
+    <td><label><input type="checkbox" name="fav" id="fav" size="40">Chơi game</label></td>
+    <td><label><input type="checkbox" name="fav" id="fav" size="40">Điện ảnh</label></td>
+    </tr>
+    <br/>
+    <tr>
+    <td><label><input type="checkbox" name="fav" id="fav" size="40">Du lịch</label></td>
+    <td><label><input type="checkbox" name="fav" id="fav" size="40">Nghệ thuật</label></td>
+    <td><label><input type="checkbox" name="fav" id="fav" size="40">Nấu ăn</label></td>
+    </tr>
+    </table>
+    <br/> <br/>
+    <button form="submit">Gửi thông tin</button>
+    <button form="reset">Nhập lại</button>
+
+</form>
+</body>
+</html>
