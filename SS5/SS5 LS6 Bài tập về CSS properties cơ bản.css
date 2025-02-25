@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.b123{
+    display: inline-flex;
+}
+.b4567{
+    display: inline-flex;
+}
+.box1 {
+    width: 300px;
+    height: 150px;
+    background-color: #444;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    opacity: 0.5; 
+    transition: opacity 0.3s ease-in-out; 
+    margin: 30px;
+    margin-left: 150px;
+}
+.box1:hover {
+    opacity: 1;
+
+
+}
+.box2 {
+    width: 300px;
+    height: 150px;
+    background-color: #444;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    margin: 30px;
+}
+.box2:hover {
+    background-color: rgb(35, 128, 250);
+}
+
+
+.box3 {
+    width: 300px;
+    height: 150px;
+    background-color: #444;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    margin: 30px;
+}
+.box3:hover {
+    width: 350px;
+    height: 180px;
+}
+
+
+.box4 {
+    width: 300px;
+    height: 150px;
+    background-color: #444;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    margin: 30px;
+}
+.box4:hover {
+    width: 260px;
+    height: 130px;
+}
+
+
+.box5 {
+    width: 300px;
+    height: 150px;
+    background-color: #444;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 1s ease-in-out; 
+    margin: 30px;
+}
+.box5:hover {
+    transform: rotate(-30deg);
+}
+
+.box6 {
+    width: 300px;
+    height: 150px;
+    background-color: #444;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    transition: 1s;
+    margin: 30px;
+}
+.box6:hover {
+    border-radius: 50%;
+}
+.box7 {
+    width: 300px;
+    height: 150px;
+    background-color: #444;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    transition: 0.7s;
+    margin: 30px;
+}
+.box7:hover {
+    border: 15px solid rgb(35, 128, 250);
+    width: 240px;
+    height: 120px;
+}

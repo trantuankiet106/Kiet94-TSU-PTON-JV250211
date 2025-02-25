@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.transform{
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    background-color: green;
+    color: black;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.transform:hover{
+    transform: rotate(45deg);
+}

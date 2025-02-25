@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    width: 2000px;
+    height: 2000px;
+}
+.position{
+    background-color: rgb(151, 212, 229);
+    width: 200px;
+    height: 100px;
+    width: 20vw;
+    height: 10vh;
+    color: black;
+    text-align: center;
+    justify-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 1vw;
+    margin: 400px;
+    position: fixed;
+    font-size: 2vw
+
+
+}
+.number{
+    text-align: center;
+}
