@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập tổng hợp form và table</title>
+</head>
+<body>
+<h1>Trang web bán hàng</h1>
+<ul>
+    <li><a href="./Resources/Trang chủ.html">Trang chủ</a></li>
+    <li><a href="./Resources/Sản phẩm.html">Sản phẩm</a></li>
+    <li><a href="./Resources/Giới thiệu.html">Giới thiệu</a></li>
+    <li><a href="./Resources/Liên hệ.html">Liên hệ</a></li>
+</ul>
+<h2>Thông tin sản phẩm</h2>
+<table border="1">
+    <tr>
+        <th>Tên sản phẩm</th>
+        <th>Mô tả</th>
+        <th>Giá</th>
+        <th>Số lượng</th>
+    </tr>
+    <tr>
+        <td>Sản phẩm 1</td>
+        <td>Mô tả sản phẩm 1</td>
+        <td>100.000đ</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Sản phẩm 2</td>
+        <td>Mô tả sản phẩm 2</td>
+        <td>200.000đ</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Sản phẩm 3</td>
+        <td>Mô tả sản phẩm 3</td>
+        <td>300.000đ</td>
+        <td>3</td>
+    </tr>
+</table>
+<h2>Thông tin người dùng</h2>
+<form action="worldsever.com" method="post">
+    <label for="fullname">Họ và tên</label>
+    <input type="text" name="fullname" id="fullname" value="" placeholder="Fullname">
+    <br/>
+    <label for="email">Email</label>
+    <input type="text" name="email" id="imail" value="" placeholder="exemple123@gmail.com">
+    <br/>
+    <label for="phone">Số điện thoại</label>
+    <input type="number" name="phone" id="phone" value="" placeholder="0123456789">
+    <br/>
+    <label for="text">Địa chỉ</label>
+    <input type="text" name="text" id="text" value="" placeholder="132 My Street, Kingston, New York 12401. United States.">
+    <br/>
+    <button type="submit">Đặt hàng</button>
+    <br/><br/>
+    <p>&copy;2023 Trang web báng hàng</p>
+</form>
+
+
+</body>
+</html>
