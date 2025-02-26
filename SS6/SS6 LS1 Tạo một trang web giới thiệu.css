@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.title1{
+    background-color: blue;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    display: inline-block;
+    text-decoration: none;
+}
+h1{
+    padding-bottom: 20px;
+}
+.menu{
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+    padding-top: 500px;
+    
+}
+.img{
+    border-radius: 80px;
+    border: 1px solid forestgreen;
+    width: 100px;
+    height: 100px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.descrition{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px auto;
+    width: 90%;
+}
+.Contact{
+    background-color: antiquewhite;
+    height: 40px;
+    text-align: center;
+    margin-top: 80px;
+    padding: 10px;
+}

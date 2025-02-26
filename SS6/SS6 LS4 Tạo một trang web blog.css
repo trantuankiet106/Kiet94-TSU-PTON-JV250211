@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    margin: 20px;
+}
+
+aside {
+    width: 20%;
+    padding: 10px;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: blue;
+}
+
+.posts {
+    width: 75%;
+}
+
+.post {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.post img {
+    width: 400px;
+    height: 200px;
+}
+.posts img {
+    width: 400px;
+    height: 200px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+footer p a{
+    text-decoration: none;
+    color: white;
+}
