@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    color: white;
+    background-color: rgb(58, 58, 58);
+    padding: 20px;
+    text-align:right 10px;
+}
+.myblog{
+    font-size: 30px;
+    margin-left: 15%;
+    padding-right: 50%;
+
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+.menu a:hover{
+    text-decoration: underline;
+}
+main{
+    background-color:rgb(242, 233, 235);
+    width: 50%;
+    height: 500px;
+    margin-left: 15%;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+p{
+    padding: 10px;
+}
+h3{
+    padding: 10px;
+}
+h4{
+    padding: 10px;
+}
+footer{
+    color: white;
+    background-color: rgb(58, 58, 58);
+    padding: 20px;
+    text-align: center
+}

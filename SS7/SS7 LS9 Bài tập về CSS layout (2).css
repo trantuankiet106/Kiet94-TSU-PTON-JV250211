@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    display: grid;
+    gap: 10px;
+    grid-template-rows: auto auto;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #f4f4f4;
+    padding: 10px;
+  }
+  .wide-banner {
+    grid-column: span 3;
+    position: relative;
+  }
+  .wide-banner img, .tile img {
+    width: 100%;
+    max-height: 900px;
+    object-fit: cover;
+  }
+  .tile1 img{
+    width: 100%;
+    max-height: 900px;
+    object-fit: cover;
+  }
+  .tile {
+    position: relative;
+    background: #000;
+    color: #000;
+  }
+  .tile1{
+      position: relative;
+      background: #000;
+      color: #000;
+  }
+  .content {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+  }
+  .content h2 {
+    font-size: 6rem;
+  }
+  .content p {
+    font-size: 4rem;
+  }
+  .signup {
+    background: #800000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    display: inline-block;
+    padding-top: 20%;
+  }
+  .signup input[type="button"] {
+    background: #fff;
+    color: #800000;
+    border-radius: 15px;
+    padding: 2% 30%;
+    font-size: 4rem;
+    margin-top: 50px;
+  }
+  .tile1{
+    grid-column: 3 / span 1;
+  }
+  .signup h2{
+    font-size: 80px;
+  }
+
