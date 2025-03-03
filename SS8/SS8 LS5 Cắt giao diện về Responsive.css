@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f7fa;
+}
+
+header {
+    text-align: left;
+    margin: 5px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding-left: 1400px;
+}
+
+nav ul li img{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    object-fit: cover;
+}
+
+.container {
+    display: flex;
+}
+
+.booking-details {
+    width: 60%;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.tour-info {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 10px;
+    gap:10px
+}
+.payment-options img {
+    width: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.card-selection {
+    display: block;
+    gap: 10px;
+}
+
+.card {
+    width: 150px;
+    height: 80px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card-form {
+    margin-top: 20px;
+}
+
+.card-form input {
+    width: 35%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    background: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.summary {
+    width: 35%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: grid;
+    flex-wrap: wrap;
+
+}
+
+.summary img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.subscribe {
+    background: #0044cc;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.subscribe input {
+    padding: 10px;
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    padding: 40px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+@media only screen and (max-width: 768px){
+    .summary{
+        flex-wrap: wrap;
+        display: block;
+    }
+    .container {
+        display: block;
+}
+}

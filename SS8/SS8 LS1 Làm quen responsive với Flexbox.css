@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.k1{
+    background-color: aquamarine;
+    display: inline-block;
+    text-align: center;
+    flex-direction: row;
+    width: 49%;
+
+}
+.k3{
+    width: 100%;
+    background-color: aquamarine;
+    display: inline-block;
+    text-align: center;
+    flex-direction: row;
+    width: 99%;
+}
+@media only screen and (max-width: 620px) {
+    .k1{
+        width: 100%;
+    }
+    .k3{
+        width: 100%;
+    }
+}
+
