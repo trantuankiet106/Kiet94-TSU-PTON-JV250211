@@ -1,0 +1,365 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #333333
+}
+
+.img-logo {
+    width: 165px;
+    height: 36.63px;
+    margin: 0.3px 118px;
+    display: flex;
+    justify-items: left;
+    margin-top: 15px;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header--menu {
+    font-size: 14px;
+    color: white;
+    padding: 25px 10px;
+
+
+}
+
+.header-button {
+    border: 1.5px solid white;
+    border-radius: 5px;
+    background-color: #333333;
+    color: white;
+    width: 204px;
+    height: 50px;
+    margin: 10px 30px;
+}
+
+.hero {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.highlight {
+    color: #3B82F6;
+}
+
+p {
+    margin: 10px 0;
+    color: #aaa;
+    text-align: center;
+}
+
+.buttons {
+    margin: 20px 0;
+    margin-left: 250px;
+}
+
+.primary-btn {
+    padding: 12px 24px;
+    background: #3B82F6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+
+}
+
+.secondary-btn {
+    padding: 12px 24px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image-container {
+    margin-top: 40px;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 900px;
+    border-radius: 10px;
+}
+
+.ideas {
+    text-align: center;
+    padding: 50px 20px;
+    color: white;
+}
+
+.ideas h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.ideas p {
+    color: #aaa;
+    margin-bottom: 30px;
+}
+
+.website-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.option {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+.option img {
+    width: 50px;
+    height: 50px;
+}
+
+.fan1 {
+    align-content: space-between;
+}
+
+.e-commerce {
+    background: #D97706;
+}
+
+.portfolio {
+    background: #6B21A8;
+}
+
+.marketing {
+    background: #2563EB;
+}
+
+.tools {
+    margin-top: 70px;
+    padding: 60px;
+    background-color: #000;
+    border-radius: 10px;
+    text-align: center;
+    width: 65%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.tools h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.tools p {
+    color: #aaa;
+    font-size: 18px;
+    text-align: center;
+}
+
+.tools-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+
+.tools-icons img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+
+.tool1 {
+    right: 780px;
+    bottom: 95px;
+}
+
+.tool2 {
+    top: 60px;
+    right: 840px;
+}
+
+.tool3 {
+    top: 90px;
+    right: 700px;
+}
+
+.tool4 {
+    left: 430px;
+    bottom: 110px;
+}
+
+.tool5 {
+    top: 97px;
+    left: 600px;
+}
+
+.tool6 {
+    bottom: 105px;
+    left: 670px;
+}
+
+.tool7 {
+    left: 830px;
+}
+
+.tool8 {
+    left: 780px;
+    top: 80px;
+}
+
+/*  */
+.featured-developers {
+    text-align: left;
+    margin-left: 300px;
+    color: white;
+}
+
+.featured-developers p {
+    text-align: left;
+}
+
+.developer {
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 10px;
+}
+
+.developer img {
+    width: 20%;
+    height: 20%;
+}
+
+.developer-botton {
+    margin-top: 50px;
+    padding: 15px 50px;
+    background-color: #3B82F6;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5%;
+    margin-left: 30%;
+}
+
+.featured-mess {
+    text-align: left;
+    margin-left: 300px;
+    color: white;
+}
+
+.featured-mess p {
+    text-align: left;
+}
+
+.mess {
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 10px;
+}
+
+.mess img {
+    width: 30%;
+    height: 30%;
+}
+
+.enjoy img {
+    margin-top: 30px;
+    width: 95%;
+    height: 95%;
+}
+
+.box {
+    background-color: #3775ED;
+    color: white;
+    text-align: center;
+    margin: 30px;
+    margin-left: 300px;
+    width: 75%;
+    padding: 60px;
+    border-radius: 10px;
+}
+
+.box p {
+    color: white;
+}
+
+.box button {
+    background-color: #000;
+    color: white;
+    padding: 15px 45px;
+    margin: 20px;
+    border-radius: 6px;
+}
+
+footer img {
+    margin-left: 20%;
+    padding-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .featured-developers {
+        margin-left: 0px;
+    }
+
+    .developer img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .featured-developers {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .featured-mess {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .developer-botton {
+        margin: 5px;
+    }
+    .mess img{
+        width: 100%;
+        height: 100%;
+    }
+    .box {
+        margin-left: 15%;
+        padding: 0px;
+    }
+    .box h2{
+        font-size: 25px;
+        padding: 20px 20px;
+        text-align: left;
+    }
+    .box p{
+        font-size: 15px;
+        text-align: left;
+        padding-left: 20px;
+    }
+}
