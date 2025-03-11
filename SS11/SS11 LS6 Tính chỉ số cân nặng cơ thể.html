@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính chỉ số cân nặng cơ thể</title>
+</head>
+
+<body>
+    <script>
+        let weight = prompt("Cân nặng của bạn là: (kg)")
+        let height = prompt("Chiều cao của bạn là: (m)")
+        let BMI = (weight / (height * height));
+        if (BMI < 18.5) {
+            alert("Bạn là người Cân nặng thấp (gầy)");
+        } else if (BMI >= 18.5, BMI <= 24.9) {
+            alert("Bạn là người bình thường");
+        } else if (BMI >= 25, BMI < 30) {
+            alert("Bạn là người thừa cân");
+        } else if (BMI >= 30, BMI <= 34.9) {
+            alert("Bạn là béo phì độ I");
+        } else if (BMI > 35, BMI < 39.9) {
+            alert("Bạn là béo phì độ II");
+        } else
+            alert("Bạn là béo phì độ III");
+
+    </script>
+</body>
+
+</html>
