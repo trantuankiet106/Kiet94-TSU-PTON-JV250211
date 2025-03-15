@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luyện tập cấu trúc điều kiện - B5</title>
+</head>
+
+<body>
+    <script>
+        let ktra1 = Number(prompt("Nhập điểm bài kiểm tra thứ 1:"))
+        let ktra2 = Number(prompt("Nhập điểm bài kiểm tra thứ 2:"))
+        let ktra3 = Number(prompt("Nhập điểm bài kiểm tra thứ 3:"))
+        let giuaky = Number(prompt("Nhập điểm bài kiểm tra Giữa kỳ:"))
+        let cuoiky = Number(prompt("Nhập điểm bài kiểm tra Cuối kỳ:"))
+        let TB = (ktra1 + ktra2 + ktra3 + (giuaky * 2) + (cuoiky * 3)) / 8;
+        alert("Điểm trung bình của bạn là: " + TB);
+        if (TB >= 0, TB <= 3.5) {
+            alert("Xếp loại học sinh Kém (Trượt)");
+        } else if (TB > 3.5, TB <= 4.9) {
+            alert("Xếp loại học sinh Yếu");
+        } else if (TB > 5, TB <= 6.4) {
+            alert("Xếp loại học sinh Trung Bình");
+        } else if (TB > 6.5, TB <= 7.9) {
+            alert("Xếp loại học sinh Khá");
+        } else if (TB > 8, TB <= 8.9) {
+            alert("Xếp loại học sinh Giỏi");
+        } else if (TB > 9, TB <= 10) {
+            alert("Xếp loại học sinh Xuất Sắc");
+        } else {
+            alert("Số điểm từ 0 đến 10")
+        }
+
+    </script>
+</body>
+
+</html>

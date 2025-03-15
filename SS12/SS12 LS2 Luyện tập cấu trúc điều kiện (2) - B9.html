@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 9: Kiểm tra 3 cạnh của một tam giác</title>
+    <script>
+        // Theo định lý ta có Tổng của 2 cạnh bao giờ cũng lớn hơn cạnh còn lại.
+        let a = Number(prompt("Nhập vào độ dài cạnh a: "));
+        let b = Number(prompt("Nhập vào độ dài cạnh b: "));
+        let c = Number(prompt("Nhập vào độ dài cạnh c: "));
+        if (a + b > c && a + c > b && b + c > a) {
+            alert("a b c là 3 cạnh của một tam giác")
+        } else {
+            alert("a b c không phải là cạnh của một tam giác")
+        }
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

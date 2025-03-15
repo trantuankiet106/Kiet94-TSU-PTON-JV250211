@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let choice;
+        let fullName;
+        let age;
+        while (choice != 10) {
+            choice = Number(prompt("mời bạn nhập lựa chọn"));
+            switch (choice) {
+                case 1:
+                    fullName = prompt("mời bạn nhập tên đầy đủ");
+                    break;
+                case 2:
+                    age = +prompt("mời bạn nhập tuổi");
+                    break;
+                case 3:
+                    console.log("tên của bạn là ", fullName);
+                    console.log("tuổi của bạn là:", age);
+                    break;
+                case 4:
+                    let a = Number(prompt("mời bạn nhập một số từ 1 - 10"));
+                    for (let i = 1; i <= 10; i++) {
+                        console.log(a + " * " + i + " = " + a * i);
+                    }
+                    break;
+                case 5:
+                    let b = Number(prompt("Mời bạn nhập vào một số"));
+                    if (b % 2 == 1) {
+                        console.log("Số bạn nhập vào là số lẻ.")
+                    } else {
+                        console.log("Số bạn nhập vào là số chẵn.")
+                    }
+                    break;
+                case 6:
+                    let N = Number(prompt("Mời bạn nhập vào một số: "));
+                    let sum = 0;
+                    for (let i = 0; i <= N; i++)
+                        sum += i;
+                    console.log("sum", sum);
+                    break;
+                case 7:
+                    let c = prompt("Nhập vào dãy số bạn mong muốn")
+                    console.log(c);
+                    break;
+                case 8:
+                    function isprime(n) {
+                        let flag = 1;
+                        if (n < 2) return flag = 0;
+                        let i = 2;
+                        while (i < n) {
+                            if (n % i == 0) {
+                                flag = 0;
+                                break;
+                            }
+                            i++;
+                        }
+                        return flag;
+                    }
+                    let n = prompt("Nhập số tự nhiên = ");
+                    let check = isprime(n);
+                    if (check == 1) console.log(n + " là số nguyên tố");
+                    else console.log(n + " không phải là số nguyên tố");
+                case 9:
+                    let string = prompt("Nhập vào một chuỗi kí tự bạn thích");
+                    const reverse = str => str.split('').reverse().join('');
+                    console.log(reverse(string))
+                    break;
+            }
+        }
+
+
+    </script>
+</body>
+
+</html>

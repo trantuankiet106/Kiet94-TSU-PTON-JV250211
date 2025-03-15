@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luyện tập vòng lặp (1) - B8</title>
+</head>
+
+<body>
+    <button onclick="startGame()">Chơi</button>
+    <script>
+        function startGame() {
+            console.log("bắt đầu chơi!");
+            let a = Number(prompt("Số bạn đoán trong khoảng từ số: "));
+            let b = Number(prompt("Số bạn đoán trong khoảng đến số: "));
+            let z = (Math.floor(Math.random() * (b - a)) + a);
+            console.log (z);
+            let c = Number(prompt("Nhập vào số bạn đoán đi nào !!..."))
+            if (c > z) {
+                alert("Số bạn đoán lớn hơn kết quả.");
+            } else if (c < z) {
+                alert("Số bạn đoán nhỏ hơn kết quả")
+            } else {
+                alert("Chúc mừng bạn đã đoán đúng")
+            }
+        }
+    </script>
+</body>
+
+</html>

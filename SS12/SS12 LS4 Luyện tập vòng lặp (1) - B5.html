@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luyện tập vòng lặp (1) - B5</title>
+</head>
+<body>
+    <script>
+        let n1 = 1;
+        let n2 = 2;
+        let nextItem;
+        let sum = 0;
+        for (let i = 0; i < 20; i++) {
+            console.log(n1);
+            sum += n1;
+            nextItem = n1 + n2;
+            n1 = n2;
+            n2 = nextItem;
+
+        }
+        console.log("sum", sum);
+    </script>
+</body>
+</html>
